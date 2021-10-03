@@ -1,0 +1,7 @@
+name: "Life Essence"
+heatCapacity: 0
+explosiveness: 1
+flammability: 1
+research: slag
+color: 00ff13
+lightColor: 00ff13

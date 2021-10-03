@@ -1,0 +1,8 @@
+name: "Essence of Violence"
+description: "Pure violent energy in a liquid form."
+heatCapacity: 0
+explosiveness: 1
+flammability: 1
+research: slag
+color: f000ff
+lightColor: f000ff

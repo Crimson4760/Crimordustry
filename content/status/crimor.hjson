@@ -1,0 +1,18 @@
+name: "Crimson Thirst"
+healthMultiplier: 0.01
+damageMultiplier: 10
+reloadMultiplier: 0.1
+speedMultiplier: 10
+effect: {
+  type: ParticleEffect
+  particles: 2
+  line: true
+  length: 0.01
+  lifetime: 12
+  colorFrom: ff0000
+  colorTo: 000000
+  lenFrom: 10
+  lenTo: 10
+  strokeFrom: 2
+  strokeTo: 0
+}

@@ -1,0 +1,4 @@
+type: OreBlock
+itemDrop: item-crimor
+mapColor: ff0000
+hasColor: true

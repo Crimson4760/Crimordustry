@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "Life Solidifier"
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 440
+itemCapacity: 30
+craftTime: 60
+requirements: [
+  copper/200
+  lead/200
+  titanium/250
+  silicon/150
+  metaglass/50
+]
+consumes: {
+  power: 0.5
+  liquid: {
+    liquid: liquid-life-essence
+    amount: 0.1
+}
+  items: {
+    items: [
+	item-pod/1
+]
+}
+}
+drawer: drawRotator
+outputItem: item-life-core/1
+category: crafting
+research: melter

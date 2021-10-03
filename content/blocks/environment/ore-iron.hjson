@@ -1,0 +1,4 @@
+type: OreBlock
+itemDrop: item-iron
+mapColor: 000000
+hasColor: true

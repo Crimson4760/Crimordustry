@@ -1,0 +1,45 @@
+type: GenericCrafter
+name: "CrimSynthesizer"
+size: 2
+drawer: drawRotator
+craftTime: 75
+itemCapacity: 50
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      item-crimor/2
+      item-iron/7
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.1
+  }
+}
+outputItem: item-crimsynth/36
+updateEffect: {
+  type: ParticleEffect
+  length: 6
+  particles: 5
+  lifetime: 35
+  colorFrom: e65555
+  colorTo: e6555550
+  sizeFrom: 0.75
+}
+craftEffect: {
+  type: ParticleEffect
+  length: 12
+  lifetime: 45
+  particles: 12
+  colorFrom: e65555
+  colorTo: e6555550
+  sizeFrom: 1.5
+  sizeTo: 0
+}
+category: crafting
+research: graphite-press
+requirements: [
+  copper/70
+  lead/60
+]

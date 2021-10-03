@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: "Infuser"
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 440
+itemCapacity: 30
+craftTime: 600
+requirements: [
+  copper/2000
+  lead/2000
+  titanium/2500
+  silicon/1500
+  metaglass/500
+]
+consumes: {
+  power: 0.5
+  liquid: {
+    liquid: liquid-essence
+    amount: 0.2
+}
+  items: {
+    items: [
+	item-crimson-core/1
+	item-fire-core/1
+	item-sun-core/1
+	item-life-core/1
+	item-water-core/1
+	item-violence-core/1
+	item-death-core/1
+	item-balance-core/1
+	item-pod/25
+]
+}
+}
+drawer: drawSmelter
+outputItem: item-oriaru-core/25
+category: crafting
+research: melter

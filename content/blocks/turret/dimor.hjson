@@ -1,0 +1,129 @@
+health: 4600
+type: ItemTurret
+name: "Dimor"
+reloadTime: 250
+recoilAmount: 1
+shootCone: 10
+range: 2100
+size: 4
+targetAir: true
+targetGround: true
+shootSound: bang
+ammoPerShot: 6
+inaccuracy: 0
+ammoTypes: {
+  item-oriaru-core: {
+    ammoMultiplier: 1
+    damage: 1
+    speed: 1
+    lifetime: 800
+    height: 90
+    width: 90
+    hitEffect: none
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 100
+          lifetime: 60
+          length: -60
+          baseLength: 90
+          line: true
+          strokeFrom: 3
+          strokeTo: 0
+          lenFrom: 0
+          lenTo: 10
+          colorFrom: d2b29c00
+          colorTo: d2b29c
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 1920
+          sizeTo: 192
+          lifetime: 4800
+          colorFrom: d2b29c00
+          colorTo: d2b29c70
+          strokeFrom: 0
+          strokeTo: 3
+        }
+      ]
+    }
+    fragBullets: 15
+    fragBullet: {
+      damage: 176952
+      speed: 1
+      width: 1
+      height: 1
+      lifetime: 60
+      collides: false
+      collidesTiles: false
+      hittable: false
+      absorbable: false
+      splashDamage: 1860
+      splashDamageRadius: 525
+      hitEffect: none
+      keepVelocity: false
+      hitSound: explosion
+      despawnEffect: {
+        type: MultiEffect
+        lifetime: 120
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 700
+            lifetime: 6000
+            colorFrom: d2b29c
+            colorTo: d2b29c
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 30
+            length: 65
+            lifetime: 80
+            colorTo: d2b29c
+            strokeFrom: 3
+            strokeTo: 0
+            lenFrom: 12
+            lenTo: 8
+          }
+          {
+            type: ParticleEffect
+            particles: 20
+            length: 120
+            lifetime: 80
+            sizeFrom: 4
+            sizeTo: 4
+            colorFrom: 343434
+            colorTo: 34343400
+          }
+        ]
+      }
+      fragBullets: 52
+      fragLifeMin: 0.4
+      fragBullet: {
+        damage: 2400
+        speed: 1
+        lifetime: 40
+        hitEffect: none
+        despawnEffect: flakExplosion
+        width: 5
+        height: 7
+        hitSound: explosion
+      }
+    }
+  }
+}
+research: meltdown
+requirements: [
+  copper/1800
+  graphite/1000
+  thorium/800
+  phase-fabric/500
+  item-crimsteel/13000
+]
+category: turret

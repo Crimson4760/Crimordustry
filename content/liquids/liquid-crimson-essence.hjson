@@ -1,0 +1,8 @@
+name: "Crimson Essence"
+description: "Hemoglobin."
+heatCapacity: 0
+explosiveness: 1
+flammability: 1
+research: slag
+color: ff0000
+lightColor: ff0000

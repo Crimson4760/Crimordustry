@@ -1,0 +1,7 @@
+name: "Fire Essence"
+heatCapacity: 0
+explosiveness: 1
+flammability: 1
+research: slag
+color: ff9d00
+lightColor: ff9d00

@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Metaglass Hearth"
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 440
+itemCapacity: 250
+craftTime: 120
+requirements: [
+  copper/2000
+  lead/2000
+  titanium/2500
+  silicon/1500
+  metaglass/500
+]
+consumes: {
+  power: 1
+  items: {
+    items: [
+	sand/60
+        lead/60
+        coal/10
+]
+}
+}
+drawer: drawSmelter
+outputItem: metaglass/60
+category: crafting
+research: melter

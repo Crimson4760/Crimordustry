@@ -1,0 +1,36 @@
+type: StackConveyor
+name: "CrimSteel Conveyor"
+health: 60
+itemCapacity: 25
+speed: 0.1
+recharge: 1
+research: titanium-conveyor
+loadEffect: {
+  type: ParticleEffect
+  line: true
+  lifetime: 30
+  length: 8
+  lenFrom: 2
+  lenTo: 0
+  strokeFrom: 0.5
+  strokeTo: 0.5
+  colorTo: ff0000
+}
+unloadEffect: {
+  type: ParticleEffect
+  line: true
+  lifetime: 50
+  length: 20
+  lenFrom: 2
+  lenTo: 0
+  strokeFrom: 0.5
+  strokeTo: 1
+  colorTo: ff0000
+}
+requirements: [
+  metaglass/5
+  silicon/5
+  item-crimsteel/5
+  lead/5
+  surge-alloy/5
+]

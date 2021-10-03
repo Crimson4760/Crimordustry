@@ -1,0 +1,7 @@
+name: "Hydrogen"
+description: "It's just hydrogen gas. It travels through conduits as iquid would."
+heatCapacity: 0
+explosiveness: 0.1
+flammability: 1
+research: slag
+color: ababab
